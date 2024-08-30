@@ -1,4 +1,4 @@
-
+#a tenser is an object that can be represented in an array- here we will be using tensers in the form of arrays
 #here we are coding a neuron, with the exmple of being fed the results of...
 # 3 other neurons( outputs from neurons themselves from a previous layer ), or the "input layer"
 inputs = [1,2,3,2.5]
@@ -19,5 +19,6 @@ for neuron_weights, neuron_bias in zip(weights,biases): # zip combines two lists
     layer_outputs.append(neuron_output)
 
 print(layer_outputs)
+
 
 
